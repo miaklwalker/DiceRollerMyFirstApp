@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="ViewPort" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-COMPATIBLE" content="ie=edge">
+
+</head>
+<link href="style.css"rel="stylesheet">
+<body>
+    <header>DiceRoller</header>
+    <p> Number of rolls</p>
+        <input type="range" min="0"max="50"value="2"id="slider">
+    <div></div>
+        <input type="number" id="numOfRolls" value="2"disabled>
+        <div></div>
+    <div>How Many Sides:</div>
+    <input type="range" min="0"max="100"value="2"id="slider1">
+    <div></div>
+        <input type="number" id="numOfDice" value="6"disabled>
+    <div>You rolled :</div>
+        <input type="text" id="display" value="0" disabled>
+    <div>Total of Rolls</div>
+        <input type="number" id="displaySummed" value="0" disabled>
+    <div><button onclick='diceGame()'id="goButton">RollDice</button></div>
+    <script src="DiceTryTwo.js"></script>
+</body>
+
+</html>
